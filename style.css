@@ -1,0 +1,37 @@
+body{
+  background-color: linen;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  color: brown;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  display: block;
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border: black 3px solid;
+  padding-left: 10px;
+}
+
+li a{
+  display: block;
+  background-color: ;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+li a:hover{
+  background: #555;
+  color: white;
+}
+.article{
+  margin-left: 30%;
+}
