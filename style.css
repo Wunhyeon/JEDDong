@@ -17,7 +17,6 @@ ul{
   position: fixed;
   height: 100%;
   overflow: auto;
-  border: black 3px solid;
   padding-left: 10px;
 }
 
@@ -26,12 +25,25 @@ li a{
   background-color: ;
   text-decoration: none;
   font-size: 30px;
+  color: black;
 
 }
 li a:hover{
   background: #555;
   color: white;
 }
+li a.active{
+  background-color: #4CAF50;
+  color: white;
+}
 .article{
   margin-left: 30%;
+}
+.article h1{
+  margin-top: 0px;
+}
+
+marquee{
+  color: red;
+  font-size: 30px;
 }
